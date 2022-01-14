@@ -42,4 +42,13 @@ public class Person {
     public String getAdresse(){
         return this.adresse;
     }
+
+    public void ToString(){
+            System.out.println(
+                    "Person name : "+ this.name +
+                            " ,Person FirstName : " + this.firstname +
+                                " ,Person number : " + this.telephonenumber+
+                                    " ,Person address : " + this.adresse
+            ); 
+    }
 }
